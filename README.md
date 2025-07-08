@@ -1,5 +1,8 @@
 # WinUITest
 
+Adjusted from the procedures on the following:
+https://learn.microsoft.com/en-us/windows/ai/apis/get-started?tabs=winget%2Cwinui%2Cwinui2
+
 # Running Visual Studio Community 2022 Preview                                          17.14.5 Preview 1.0 Microsoft Corporation
 
 - C++/WinRT templates and visualizer for VS2022
