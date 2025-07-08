@@ -26,6 +26,7 @@ https://learn.microsoft.com/en-us/windows/ai/apis/get-started?tabs=winget%2Cwinu
 🧰 1. Launch Visual Studio Preview
 - Start Visual Studio 2022 Preview
 - Ensure you’re using the “Developer Command Prompt” if you plan to run CLI tools later
+  
 🧱 2. Create a New Project
 - Click Create a new project
 - Search for: Blank App, Packaged (WinUI 3 in Desktop)
@@ -33,17 +34,20 @@ https://learn.microsoft.com/en-us/windows/ai/apis/get-started?tabs=winget%2Cwinu
 - For C++/WinRT: Use the template from the Microsoft.Windows.CppWinRT package
 - For C#: Use the Windows App SDK C# template
 - Click Next
+  
 🧾 3. Configure Project
 - Name: WinUITest
 - Location: Choose a clean dev folder
 - Solution: New or existing—it’s up to you
 - Framework version: Select Windows App SDK 1.4 or later (you’re on 1.7)
 - Target: Windows 11, version 24H2 (Build 26120 is fully compatible)
+
 ⚙️ 4. Set Debug Target and Packaging
 - Go to Project Properties
 - Ensure Target Framework is correct (e.g., net8.0-windows10.0.19041.0 for C#)
 - Ensure packaging is Single-project MSIX (already installed)
 - Set Package.appxmanifest > Identity > Publisher if not already set
+  
 ▶️ 5. Build and Run
 - Build the solution with Ctrl+Shift+B
 - Set the startup project and press F5 to launch
