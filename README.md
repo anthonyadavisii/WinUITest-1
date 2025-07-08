@@ -23,6 +23,12 @@ https://learn.microsoft.com/en-us/windows/ai/apis/get-started?tabs=winget%2Cwinu
 - OS: Windows 11 Home 24H2
 - Build: 26120
 
+Prerequisite:
+Ensure your Windows version exceeeds 10.0.26119.0 with the following PowerShell command:
+[System.Environment]::OSVersion.Version
+Run the following command in Windows Terminal if the Microsoft winget command fails. This is likely due to the executable reporting inaccurate build number and can be bypassed using the following:
+winget configure https://raw.githubusercontent.com/anthonyadavisii/WinUITest-1/refs/heads/master/learn_wcr_revision_bypass.winget
+
 🧰 1. Launch Visual Studio Preview
 - Start Visual Studio 2022 Preview
 - Ensure you’re using the “Developer Command Prompt” if you plan to run CLI tools later
